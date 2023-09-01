@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contracts",
+  "info": {
+    "singularName": "contract",
+    "pluralName": "contracts",
+    "displayName": "Contract",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "assinado": {
+      "type": "boolean"
+    },
+    "data_rescisao": {
+      "type": "date"
+    },
+    "data_de_inicio": {
+      "type": "date"
+    },
+    "hash_contrato": {
+      "type": "string"
+    },
+    "data_da_assinatura": {
+      "type": "date"
+    },
+    "token_assinatura": {
+      "type": "string"
+    },
+    "tipo_servico": {
+      "type": "string"
+    },
+    "rescisao": {
+      "type": "boolean"
+    },
+    "rescindido_por": {
+      "type": "string"
+    },
+    "data_da_rescisao": {
+      "type": "date"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "previa_contrato": {
+      "type": "text"
+    },
+    "duracao": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titulo"
+    }
+  }
+}
